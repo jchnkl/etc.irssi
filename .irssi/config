@@ -300,3 +300,4 @@ settings = {
   };
   "fe-text" = { actlist_sort = "refnum"; };
 };
+hilights = ( { text = "jkeil"; nick = "yes"; word = "yes"; } );
