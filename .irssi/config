@@ -22,7 +22,10 @@ servers = (
 chatnets = {
   suse = { type = "IRC"; };
   freenode = { type = "IRC"; };
-  bitlbee = { type = "IRC"; };
+  bitlbee = {
+    type = "IRC";
+    autosendcmd = "/msg &bitlbee identify <PASSWORD>";
+  };
 };
 
 channels = (
