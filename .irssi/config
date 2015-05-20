@@ -291,5 +291,9 @@ settings = {
     user_name = "jkeil";
     nick = "jkeil";
   };
+  "fe-common/core" = {
+    theme = "solarized-universal";
+    hilight_color = "= %R";
+  };
   "fe-text" = { actlist_sort = "refnum"; };
 };
