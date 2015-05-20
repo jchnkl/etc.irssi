@@ -9,6 +9,7 @@ servers = (
 chatnets = {
   bitlbee = {
     type = "IRC";
+    autosendcmd = "/msg &bitlbee identify <PASSWORD>";
   };
 };
 
