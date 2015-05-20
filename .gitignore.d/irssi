@@ -1,0 +1,8 @@
+*
+!/.gitignore.d
+!/.gitignore.d/irssi
+!/.irssi
+!/.irssi/config
+!/.irssi/default.theme
+!/.irssi/readme.md
+!/.irssi/solarized-universal.theme
