@@ -297,7 +297,10 @@ settings = {
   "fe-common/core" = {
     theme = "solarized-universal";
     hilight_color = "= %R";
+    autolog_path = "~/.irssi/logs/$tag/$0/%Y-%m-%d.log";
+    autolog = "yes";
   };
   "fe-text" = { actlist_sort = "refnum"; };
 };
 hilights = ( { text = "jkeil"; nick = "yes"; word = "yes"; } );
+logs = { };
