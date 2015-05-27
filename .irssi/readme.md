@@ -1,10 +1,10 @@
 Keep the config free of passwords
 
-In `.gitattributes`:
+In `$GIT_DIR/info/attributes`:
 
     config filter=pw
 
-In `.git/config`:
+In `$GIT_DIR/config`:
 
     [filter "pw"]
       clean = "sed -e 's/identify .*\";/identify <PASSWORD>\";/'"
