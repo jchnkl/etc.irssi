@@ -289,11 +289,7 @@ statusbar = {
 };
 
 settings = {
-  core = {
-    real_name = "Jochen Keil";
-    user_name = "jkeil";
-    nick = "jkeil";
-  };
+  core = { real_name = "Jochen Keil"; user_name = "jkeil"; nick = "jkeil"; };
   "fe-common/core" = {
     theme = "solarized-universal";
     hilight_color = "= %R";
