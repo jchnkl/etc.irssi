@@ -8,3 +8,5 @@ In `$GIT_DIR/config`:
 
     [filter "pw"]
       clean = "sed -e 's/identify .*\";/identify <PASSWORD>\";/'"
+
+Afterwards, don't forget to run `git add -u` for a clean index!
