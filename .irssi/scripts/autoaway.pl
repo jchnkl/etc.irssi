@@ -101,7 +101,7 @@ sub auto_timeout {
   # we're in the process.. don't touch anything.
   $autoaway_state = 3;
   foreach my $server (Irssi::servers()) {
-      $server->command("/AWAY autoaway after $autoaway_sec seconds");
+      $server->command("/AWAY " . Irssi::settings_get_str('autoaway_msg'));
   }
 
   Irssi::timeout_remove($autoaway_to_tag);
@@ -141,3 +141,4 @@ if ($autoaway_default) {
 Irssi::command_bind('autoaway', 'cmd_autoaway');
 Irssi::command_bind('away', 'cmd_away');
 Irssi::signal_add('send command', 'reset_timer');
+Irssi::settings_add_str('away', 'autoaway_msg' => 'autoaway');
