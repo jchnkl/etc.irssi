@@ -33,6 +33,7 @@ channels = (
   { name = "#pack"; chatnet = "suse"; autojoin = "yes"; },
   { name = "#slepos"; chatnet = "suse"; autojoin = "yes"; },
   { name = "#haskell"; chatnet = "suse"; autojoin = "yes"; },
+  { name = "#slenkins"; chatnet = "suse"; autojoin = "yes"; },
   { name = "#opensuse-factory"; chatnet = "freenode"; autojoin = "yes"; }
 );
 
