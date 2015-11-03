@@ -25,6 +25,7 @@ chatnets = {
 
 channels = (
   { name = "#haskell"; chatnet = "freenode"; autojoin = "yes"; },
+  { name = "#archlinux"; chatnet = "freenode"; autojoin = "yes"; },
   { name = "#purescript"; chatnet = "freenode"; autojoin = "yes"; }
 );
 
