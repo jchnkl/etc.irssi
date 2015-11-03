@@ -7,6 +7,6 @@ In `$GIT_DIR/info/attributes`:
 In `$GIT_DIR/config`:
 
     [filter "pw"]
-      clean = "sed -e 's/identify .*\";/identify <PASSWORD>\";/'"
+      clean = "sed -e 's/\\(identify.*\\)\\( .*\";$\\)/\\1 <PASSWORD>\";/'"
 
 Afterwards, don't forget to run `git add -u` for a clean index!
