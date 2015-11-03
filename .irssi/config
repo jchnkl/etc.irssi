@@ -3,6 +3,12 @@ servers = (
     address = "localhost";
     chatnet = "bitlbee";
     autoconnect = "no";
+  },
+  {
+    address = "irc.freenode.net";
+    chatnet = "freenode";
+    port = "6667";
+    autoconnect = "yes";
   }
 );
 
@@ -11,9 +17,12 @@ chatnets = {
     type = "IRC";
     autosendcmd = "/msg &bitlbee identify <PASSWORD>";
   };
+  freenode = { type = "IRC" };
 };
 
 channels = (
+  { name = "#haskell"; chatnet = "freenode"; autojoin = "yes"; },
+  { name = "#purescript"; chatnet = "freenode"; autojoin = "yes"; }
 );
 
 aliases = {
