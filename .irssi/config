@@ -2,7 +2,7 @@ servers = (
   {
     address = "localhost";
     chatnet = "bitlbee";
-    autoconnect = "yes";
+    autoconnect = "no";
   }
 );
 
