@@ -279,7 +279,7 @@ statusbar = {
 };
 
 settings = {
-  core = { real_name = "Jochen Keil"; user_name = "jrk"; nick = "jrk"; };
+  core = { real_name = "Jochen Keil"; user_name = "jotrk"; nick = "jotrk"; };
   "fe-common/core" = {
     theme = "solarized-universal";
     hilight_color = "= %R";
@@ -295,5 +295,5 @@ settings = {
     autoaway_msg = "I'm on my way to the moon.";
   };
 };
-hilights = ( { text = "jrk"; nick = "yes"; word = "yes"; } );
+hilights = ( { text = "jotrk"; nick = "yes"; word = "yes"; } );
 logs = { };
