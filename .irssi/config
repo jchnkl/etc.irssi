@@ -297,6 +297,7 @@ settings = {
   "perl/core/scripts" = {
     autoaway_timeout = "300";
     autoaway_msg = "I'm on my way to the moon.";
+    tmux_away_message = "Unfortunately I'm not here at the moment. However, I will read your message and come back to you asap.";
   };
 };
 hilights = ( { text = "jotrk"; nick = "yes"; word = "yes"; } );
