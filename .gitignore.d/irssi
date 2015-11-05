@@ -8,7 +8,6 @@
 !/.irssi/scripts
 !/.irssi/scripts/autoaway.pl
 !/.irssi/scripts/autorun
-!/.irssi/scripts/autorun/autoaway.pl
 !/.irssi/scripts/autorun/tmux_away.pl
 !/.irssi/scripts/tmux_away.pl
 !/.irssi/solarized-universal.theme
